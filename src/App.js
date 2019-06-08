@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import Pic from './components/pic';
+import pics from './pics.json';
+import './appStyles.css';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Header></Header>
+            <div className="d-flex flex-wrap justify-content-center mx-auto picContainer">
+                {pics.map(pic => (
+                    <Pic key={pic.id} image={pic.imageName} />
+                ))}
+            </div>
+            <Footer></Footer>
+        </div>
+    );
 }
 
 export default App;

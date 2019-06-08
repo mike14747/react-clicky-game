@@ -1,0 +1,16 @@
+.picContainer  {
+    max-width: 840px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 839.98px) {
+    .picContainer {
+        max-width: 630px;
+    }
+}
+
+@media (max-width: 629.98px) {
+    .picContainer {
+        max-width: 420px;
+    }
+}

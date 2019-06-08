@@ -1,0 +1,33 @@
+.imgDiv {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.imgStyles {
+    margin: 20px;
+    width: 170px;
+    height: auto;
+}
+
+.imgStyles:hover {
+    margin: 10px;
+    width: 180px;
+    height: auto;
+    box-shadow: 5px 5px 10px #333333;
+}
+
+.myCol {
+    width: 25%;
+}
+  
+@media (max-width: 839.98px) {
+    .myCol {
+      width: 33.33%;
+    }
+}
+
+@media (max-width: 629.98px) {
+    .myCol {
+      width: 50%;
+    }
+}

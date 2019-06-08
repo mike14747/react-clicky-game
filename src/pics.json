@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imageName": "images/Buchanan.jpg"
+    },
+    {
+        "id": 2,
+        "imageName": "images/Cleveland.jpg"
+    },
+    {
+        "id": 3,
+        "imageName": "images/Garfield.jpg"
+    },
+    {
+        "id": 4,
+        "imageName": "images/Grant.jpg"
+    },
+    {
+        "id": 5,
+        "imageName": "images/Harrison.jpg"
+    },
+    {
+        "id": 6,
+        "imageName": "images/Hayes.jpg"
+    },
+    {
+        "id":7,
+        "imageName": "images/JQA.jpg"
+    },
+    {
+        "id": 8,
+        "imageName": "images/Madison.jpg"
+    },
+    {
+        "id": 9,
+        "imageName": "images/Mckinley.jpg"
+    },
+    {
+        "id": 10,
+        "imageName": "images/Monroe.jpg"
+    },
+    {
+        "id": 11,
+        "imageName": "images/Polk.jpg"
+    },
+    {
+        "id": 12,
+        "imageName": "images/Van_Buren.jpg"
+    }
+]

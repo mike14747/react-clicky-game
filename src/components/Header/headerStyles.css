@@ -1,0 +1,55 @@
+.navStyles {
+    background-image: url('./white-house.jpg');
+    background-size: cover;
+    background-color: #eeeeee;
+    color: #333333;
+    border-bottom: 1px solid #999999;
+    box-shadow: 0 5px 10px rgba(0,0,0,.20);
+}
+
+.brandAlign {
+    color: #775533;
+    text-align: left;
+}
+
+.counterAlign {
+    color: #775533;
+    text-align: right;
+}
+
+.liStyles {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    width: 33.33%;
+}
+
+@media (max-width: 839.98px) {
+    .h4 {
+      font-size: 1.20rem;
+    }
+    .h5 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 629.98px) {
+    .h4 {
+        font-size: 1.50rem;
+    }
+    .h5 {
+        font-size: 1.25rem;
+    }
+    .brandAlign {
+        text-align: center;
+    }
+    .counterAlign {
+        text-align: center;
+    }
+    .liStyles {
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 0;
+        width: 100%;
+    }
+}

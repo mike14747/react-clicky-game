@@ -1,50 +1,74 @@
 [
     {
         "id": 1,
-        "imageName": "images/Buchanan.jpg"
+        "name": "Buchanon",
+        "imageName": "images/Buchanan.jpg",
+        "clicked": false
     },
     {
         "id": 2,
-        "imageName": "images/Cleveland.jpg"
+        "name": "Cleveland",
+        "imageName": "images/Cleveland.jpg",
+        "clicked": false
     },
     {
         "id": 3,
-        "imageName": "images/Garfield.jpg"
+        "name": "Garfield",
+        "imageName": "images/Garfield.jpg",
+        "clicked": false
     },
     {
         "id": 4,
-        "imageName": "images/Grant.jpg"
+        "name": "Grant",
+        "imageName": "images/Grant.jpg",
+        "clicked": false
     },
     {
         "id": 5,
-        "imageName": "images/Harrison.jpg"
+        "name": "Harrison",
+        "imageName": "images/Harrison.jpg",
+        "clicked": false
     },
     {
         "id": 6,
-        "imageName": "images/Hayes.jpg"
+        "name": "Hayes",
+        "imageName": "images/Hayes.jpg",
+        "clicked": false
     },
     {
         "id":7,
-        "imageName": "images/JQA.jpg"
+        "name": "Adams",
+        "imageName": "images/JQA.jpg",
+        "clicked": false
     },
     {
         "id": 8,
-        "imageName": "images/Madison.jpg"
+        "name": "Madison",
+        "imageName": "images/Madison.jpg",
+        "clicked": false
     },
     {
         "id": 9,
-        "imageName": "images/Mckinley.jpg"
+        "name": "McKinley",
+        "imageName": "images/Mckinley.jpg",
+        "clicked": false
     },
     {
         "id": 10,
-        "imageName": "images/Monroe.jpg"
+        "name": "Monroe",
+        "imageName": "images/Monroe.jpg",
+        "clicked": false
     },
     {
         "id": 11,
-        "imageName": "images/Polk.jpg"
+        "name": "Polk",
+        "imageName": "images/Polk.jpg",
+        "clicked": false
     },
     {
         "id": 12,
-        "imageName": "images/Van_Buren.jpg"
+        "name": "Van Buren",
+        "imageName": "images/Van_Buren.jpg",
+        "clicked": false
     }
 ]

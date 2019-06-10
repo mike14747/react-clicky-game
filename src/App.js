@@ -10,7 +10,7 @@ export default class App extends Component {
     state = {
         score: 0,
         topScore: 0,
-        message: "Welcome to my clicky game!",
+        message: "Click any president to start!",
         pics
     };
 

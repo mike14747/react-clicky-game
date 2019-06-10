@@ -52,7 +52,7 @@ export default class App extends Component {
     markClicked = id => {
         this.incrementScore();
         const index = this.state.pics.findIndex(currentPic => currentPic.id === id);
-        const newPics = [...this.state.pics]
+        const newPics = [...this.state.pics];
         newPics[index].clicked = true;
         this.setState({ pics: newPics });
     };

@@ -28,6 +28,8 @@ export default class App extends Component {
                 this.setState({ message: "You've won the Game!" }, () => {
                     this.restartGame();
                 });
+            } else if (this.state.score === 1) {
+                this.setState({ message: "The Game has Begun!" });
             } else {
                 this.setState({ message: "Correct Guess!" });
             }

@@ -40,8 +40,7 @@ export default class App extends Component {
     };
 
     picClicked = id => {
-        const currentPics = this.state.pics;
-        const justClicked = currentPics.filter(pic => pic.id === id);
+        const justClicked = this.state.pics.filter(pic => pic.id === id);
         if (justClicked[0].clicked) {
             this.badClick();
         } else {
@@ -79,7 +78,7 @@ export default class App extends Component {
                 <Header message={this.state.message} score={this.state.score} topScore={this.state.topScore} />
                 <Instructions />
                 <div className="d-flex flex-wrap justify-content-center mx-auto picContainer">
-                    {this.shuffleArray(pics).map(pic => (
+                    {this.shuffleArray(this.state.pics).map(pic => (
                         <Pic key={pic.id} id={pic.id} image={pic.imageName} alt={pic.name} picClicked={this.picClicked} />
                     ))}
                 </div>

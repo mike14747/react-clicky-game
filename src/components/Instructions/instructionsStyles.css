@@ -8,17 +8,17 @@
 }
 
 .instFont {
-    font-size: 1.50rem;
+    font-size: 1.35rem;
 }
 
 @media (max-width: 859.98px) {
     .instFont {
-      font-size: 1.35rem;
+      font-size: 1.25rem;
     }
 }
 
 @media (max-width: 649.98px) {
     .instFont {
-        font-size: 1.20rem;
+        font-size: 1.15rem;
     }
 }

@@ -14,8 +14,15 @@
 
 ## About the code in this project:
 
-This project use 5 components which are pieced together in **App.js** (which is the only file using **State**), then are rendered through **index.js** to the root id element in **public/index.html**... the main (and only) page.
-<br />
+This project use 5 components which are pieced together in **src/App.js** (which is the only file using **State**), then are rendered through **src/index.js** to the root id element in **public/index.html**... the main (and only) page. The default State of App.js is as follows:
+```
+state = {
+    score: 0,
+    topScore: 0,
+    message: "Welcome to my clicky game!",
+    pics
+};
+```
 
 The 5 components are:
 * header.js
@@ -25,7 +32,27 @@ The 5 components are:
 * footer.js
 <br />
 
-Each of the components reside in the **components** folder. Three of the components (header, instructions and pic) have their own subfolders within the components folder because they also have associated css files and/or images they need to be grouped with.
+Each of the components reside in the **src/components** folder. Three of the components (header, instructions and pic) have their own subfolders within the components folder because they also have associated css files and/or images they need to be grouped with.
+<br />
+
+The president pics are stored in the **src/pics.json**, imported into App.js, then mapped into App.js' **State** after shuffling. This process is repeated with every click or page load.
+<br />
+
+I used an ES6 version of the classic Fisher-Yates shuffle to randomly display the president pics upon each click or page load.
+```
+shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+};
+```
+
+At the end of every game... whether that be because of an incorrect click or 12 consecutive successful clicks... the **resetGame()** function is called. That function resets the State of score and the pics array, but not topScore or message.
+<br />
+
+**Props** are passed from App.js to the header and pic components. The header component then redirects a couple of the props to one of its children, the **counter** component.
 
 ---
 

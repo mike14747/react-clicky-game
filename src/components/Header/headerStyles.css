@@ -24,7 +24,7 @@
     width: 33.33%;
 }
 
-@media (max-width: 839.98px) {
+@media (max-width: 859.98px) {
     .h4 {
       font-size: 1.20rem;
     }
@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width: 629.98px) {
+@media (max-width: 649.98px) {
     .h4 {
         font-size: 1.50rem;
     }

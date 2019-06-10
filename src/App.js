@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header/header';
+import Instructions from './components/Instructions/instructions';
 import Footer from './components/footer';
 import Pic from './components/Pic/pic';
 import pics from './pics.json';
@@ -74,6 +75,7 @@ export default class App extends Component {
         return (
             <div>
                 <Header message={this.state.message} score={this.state.score} topScore={this.state.topScore} />
+                <Instructions />
                 <div className="d-flex flex-wrap justify-content-center mx-auto picContainer">
                     {this.shuffleArray(pics).map(pic => (
                         <Pic key={pic.id} id={pic.id} image={pic.imageName} alt={pic.name} picClicked={this.picClicked} />

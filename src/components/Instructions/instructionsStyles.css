@@ -1,0 +1,24 @@
+.instructionsDiv {
+    background-image: url('./parchment.jpg');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: #553311;
+    border-bottom: 1px solid #999999;
+}
+
+.instFont {
+    font-size: 1.50rem;
+}
+
+@media (max-width: 859.98px) {
+    .instFont {
+      font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 649.98px) {
+    .instFont {
+        font-size: 1.20rem;
+    }
+}

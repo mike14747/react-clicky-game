@@ -2,12 +2,12 @@
   "name": "react-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mike14747.github.io/react-clicky-game/",
+  "homepage": "https://react-clicky-game.mikegullo.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "predeploy": "npm run build",

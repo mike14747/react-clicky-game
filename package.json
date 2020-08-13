@@ -2,7 +2,7 @@
   "name": "react-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://react-clicky-game.mikegullo.com/",
+  "homepage": "https://mike14747.github.io/react-clicky-game/",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",

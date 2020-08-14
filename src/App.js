@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import Pic from './components/Pic/pic';
 import pics from './pics.json';
 import './appStyles.css';
+import './css/my_style.css';
 
 export default class App extends Component {
     state = {

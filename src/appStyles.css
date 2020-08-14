@@ -1,6 +1,7 @@
 .picContainer  {
     max-width: 840px;
     background-color: #ffffff;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 859.98px) {

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-clicky-game/static/css/main.a25bd077.chunk.css",
-    "main.js": "/react-clicky-game/static/js/main.c91cc40f.chunk.js",
-    "main.js.map": "/react-clicky-game/static/js/main.c91cc40f.chunk.js.map",
-    "runtime-main.js": "/react-clicky-game/static/js/runtime-main.6f14b782.js",
-    "runtime-main.js.map": "/react-clicky-game/static/js/runtime-main.6f14b782.js.map",
-    "static/js/2.4e46089d.chunk.js": "/react-clicky-game/static/js/2.4e46089d.chunk.js",
-    "static/js/2.4e46089d.chunk.js.map": "/react-clicky-game/static/js/2.4e46089d.chunk.js.map",
+    "main.css": "/react-clicky-game/static/css/main.0b9e3c3a.chunk.css",
+    "main.js": "/react-clicky-game/static/js/main.376610a7.chunk.js",
+    "main.js.map": "/react-clicky-game/static/js/main.376610a7.chunk.js.map",
+    "runtime-main.js": "/react-clicky-game/static/js/runtime-main.7a80357d.js",
+    "runtime-main.js.map": "/react-clicky-game/static/js/runtime-main.7a80357d.js.map",
+    "static/js/2.aa0ad8a2.chunk.js": "/react-clicky-game/static/js/2.aa0ad8a2.chunk.js",
+    "static/js/2.aa0ad8a2.chunk.js.map": "/react-clicky-game/static/js/2.aa0ad8a2.chunk.js.map",
     "index.html": "/react-clicky-game/index.html",
-    "precache-manifest.2c0b41d85be900169111bdd2885de9f7.js": "/react-clicky-game/precache-manifest.2c0b41d85be900169111bdd2885de9f7.js",
+    "precache-manifest.dd3c58e5f73a4f49cdfc0d34ec98c0aa.js": "/react-clicky-game/precache-manifest.dd3c58e5f73a4f49cdfc0d34ec98c0aa.js",
     "service-worker.js": "/react-clicky-game/service-worker.js",
-    "static/css/main.a25bd077.chunk.css.map": "/react-clicky-game/static/css/main.a25bd077.chunk.css.map",
-    "static/js/2.4e46089d.chunk.js.LICENSE.txt": "/react-clicky-game/static/js/2.4e46089d.chunk.js.LICENSE.txt",
+    "static/css/main.0b9e3c3a.chunk.css.map": "/react-clicky-game/static/css/main.0b9e3c3a.chunk.css.map",
+    "static/js/2.aa0ad8a2.chunk.js.LICENSE.txt": "/react-clicky-game/static/js/2.aa0ad8a2.chunk.js.LICENSE.txt",
     "static/media/instructionsStyles.css": "/react-clicky-game/static/media/parchment.f3389913.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f14b782.js",
-    "static/js/2.4e46089d.chunk.js",
-    "static/css/main.a25bd077.chunk.css",
-    "static/js/main.c91cc40f.chunk.js"
+    "static/js/runtime-main.7a80357d.js",
+    "static/js/2.aa0ad8a2.chunk.js",
+    "static/css/main.0b9e3c3a.chunk.css",
+    "static/js/main.376610a7.chunk.js"
   ]
 }

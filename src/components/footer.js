@@ -9,7 +9,7 @@ export default function Footer() {
     };
     
     return (
-        <footer style={styles} className="fixed-bottom d-flex align-items-center justify-content-center p-2 mt-4">
+        <footer style={styles} className="fixed-bottom d-flex align-items-center justify-content-center p-2">
             Copyright &#169; 2019 mike14747
             </footer>
     );

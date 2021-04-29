@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import Pic from './components/Pic/pic';
 import pics from './pics.json';
 import './appStyles.css';
+import './css/my_style.css';
 
 export default class App extends Component {
     state = {
@@ -77,7 +78,7 @@ export default class App extends Component {
             <div>
                 <Header message={this.state.message} score={this.state.score} topScore={this.state.topScore} />
                 <Instructions />
-                <div className="d-flex flex-wrap justify-content-center mx-auto picContainer">
+                <div className="d-flex flex-wrap justify-content-center mx-auto picContainer mt-4">
                     {this.shuffleArray(this.state.pics).map(pic => (
                         <Pic key={pic.id} id={pic.id} image={pic.imageName} alt={pic.name} picClicked={this.picClicked} />
                     ))}

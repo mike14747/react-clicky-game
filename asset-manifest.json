@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/react-clicky-game/static/css/main.0b9e3c3a.chunk.css",
-    "main.js": "/react-clicky-game/static/js/main.4d7864a5.chunk.js",
-    "main.js.map": "/react-clicky-game/static/js/main.4d7864a5.chunk.js.map",
-    "runtime-main.js": "/react-clicky-game/static/js/runtime-main.6f14b782.js",
-    "runtime-main.js.map": "/react-clicky-game/static/js/runtime-main.6f14b782.js.map",
-    "static/js/2.4e46089d.chunk.js": "/react-clicky-game/static/js/2.4e46089d.chunk.js",
-    "static/js/2.4e46089d.chunk.js.map": "/react-clicky-game/static/js/2.4e46089d.chunk.js.map",
+    "main.css": "/react-clicky-game/static/css/main.cdeefaa2.chunk.css",
+    "main.js": "/react-clicky-game/static/js/main.3a4c6c57.chunk.js",
+    "main.js.map": "/react-clicky-game/static/js/main.3a4c6c57.chunk.js.map",
+    "runtime-main.js": "/react-clicky-game/static/js/runtime-main.0f72381a.js",
+    "runtime-main.js.map": "/react-clicky-game/static/js/runtime-main.0f72381a.js.map",
+    "static/js/2.1b9f0762.chunk.js": "/react-clicky-game/static/js/2.1b9f0762.chunk.js",
+    "static/js/2.1b9f0762.chunk.js.map": "/react-clicky-game/static/js/2.1b9f0762.chunk.js.map",
     "index.html": "/react-clicky-game/index.html",
-    "precache-manifest.91ef9b158c7562d00b6b733b1891b710.js": "/react-clicky-game/precache-manifest.91ef9b158c7562d00b6b733b1891b710.js",
-    "service-worker.js": "/react-clicky-game/service-worker.js",
-    "static/css/main.0b9e3c3a.chunk.css.map": "/react-clicky-game/static/css/main.0b9e3c3a.chunk.css.map",
-    "static/js/2.4e46089d.chunk.js.LICENSE.txt": "/react-clicky-game/static/js/2.4e46089d.chunk.js.LICENSE.txt",
-    "static/media/instructionsStyles.css": "/react-clicky-game/static/media/parchment.f3389913.jpg"
+    "static/css/main.cdeefaa2.chunk.css.map": "/react-clicky-game/static/css/main.cdeefaa2.chunk.css.map",
+    "static/js/2.1b9f0762.chunk.js.LICENSE.txt": "/react-clicky-game/static/js/2.1b9f0762.chunk.js.LICENSE.txt",
+    "static/media/instructionsStyles.css": "/react-clicky-game/static/media/parchment.4b817808.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f14b782.js",
-    "static/js/2.4e46089d.chunk.js",
-    "static/css/main.0b9e3c3a.chunk.css",
-    "static/js/main.4d7864a5.chunk.js"
+    "static/js/runtime-main.0f72381a.js",
+    "static/js/2.1b9f0762.chunk.js",
+    "static/css/main.cdeefaa2.chunk.css",
+    "static/js/main.3a4c6c57.chunk.js"
   ]
 }
